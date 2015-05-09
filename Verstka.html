@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <title>Верстка</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="menu">
+        <ul>
+			<td>
+                <li class="topmenu"><td align="right"><a>Ваш город</a></td>
+                    <ul class="submenu">
+                        <input type="radio" name="gender" value="1" id="g1"><label for="g1"><li><a>Казань</a></li></label>
+                        <input type="radio" name="gender" value="2" id="g2"><label for="g1"><li><a>Москва</a></li></label>
+                        <input type="radio" name="gender" value="3" id="g2"><label for="g1"><li><a>СПБ</a></li></label>
+			</td>
+						<li class="divider"></li>
+						<li><a>Чебоксары</a></li>
+						<li><a>Наб. Челны</a></li>
+						<li><a>Уфа</a></li>
+                    </ul>
+                </li>
+                <li class="topmenu">
+                    <a>Мужчинам</a>
+                    <ul class="submenu">
+                        <li><a>Верхняя одежда</a></li>
+                        <li><a>Рубашки</a></li>
+                        <li><a>Свитеры</a></li>
+                        <li><a>Свитшоты</a></li>
+                    </ul>
+                </li>
+                <li class="topmenu">
+                    <a>Женщинам</a>
+                    <ul class="submenu">
+                        <li><a>Верхняя одежда</a></li>
+                        <li><a>Платья</a></li>
+                        <li><a>Брюки</a></li>
+                        <li><a>Юбки</a></li>
+                    </ul>
+                </li>
+                <li class="topmenu"><a>Аксесуары</a></li>
+                <li class="topmenu">
+                    <a>Девочкам</a>
+                    <ul class="submenu">
+                        <li><a>Пуховики</a></li>
+                        <li><a>Платья</a></li>
+                        <li><a>Юбки</a></li>
+                    </ul>
+                </li>
+                <li class="topmenu">
+                    <a>Мальчикам</a>
+                    <ul class="submenu">
+                        <li>
+                            <a>Пуховики</a>
+                        <li><a>Брюки</a></li>
+                        <li><a>Рубашки</a></li>
+                        </li>
+                    </ul>
+                </li>
+        </ul>	
+		<div id="container"><p><img src="C:\Users\Алсу\Desktop\IT\DSC_0190.jpg" width="150" height="50" />
+		</div>
+    </div>
+	<div id="button">
+		<div id="s_panel">Окно</div>
+	</div>
+		 <a href="#win1" class="button 1">Открыть окно 1</a>
+		 <a href="#win2" class="button 2">Открыть окно 2</a>
+		 <a href="#win3" class="button 3">Открыть окно 3</a>
+		 <a href="#win4" class="button 4">Открыть окно 4</a>
+		 <a href="#x" class="overlay" id="win1"></a>
+   <div class="popup">Окно 1<a class="close"title="Закрыть" href="#close"></a></div>
+		 <a href="#x" class="overlay" id="win2"></a>
+    <div class="popup">Окно 2<a class="close" title="Закрыть" href="#close"></a></div>
+         <a href="#x" class="overlay" id="win3"></a>
+    <div class="popup"><h2>Окно 3</h2>Текст окна 3<a class="close" title="Закрыть" href="page.html" onclick="return false"></a><!-- Выключение видео при закрытии окна --></div>
+		 <a href="#x" class="overlay" id="win4"></a>
+    <div class="popup">
+		 <img class="is-image" src="C:\Users\Алсу\Desktop\IT\DSC_0190.jpg" alt="" />
+         <a class="close" title="Закрыть" href="#close"></a>
+    </div>
+		 <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css'>
+		 <link rel="stylesheet" href="css/style.css">
+    <div class="container-fluid">
+	<div class="row-fluid">
+	<div class="span12">
+		<div class="page-header">
+			<h3>Bootstrap</h3>
+		</div>
+    <div class="carousel slide" id="myCarousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="Image">
+                    <a href="#"><img src="C:\Users\Алсу\Desktop\IT\DSC_0190.jpg"></a>
+                </div>
+                <div class="caption row-fluid">
+                    <div class="span4"><h3>Название</h3>
+                    <a class="btn btn-mini" href="#">Заказать</a>
+                    </div>                	
+                	<div class="span8"><p>Описание</p>
+                	</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="Image">
+                    <a href="#"><img src="C:\Users\Алсу\Desktop\IT\BuUws6gvkyM.jpg"></a>
+                </div>
+                <div class="caption row-fluid">
+                    <div class="span4"><h3>Название 3</h3>
+                    <a class="btn btn-mini" href="#">Заказать</a>
+                    </div>                	
+                	<div class="span8"><p>Описание 3</p>
+                	</div>
+                </div>
+            </div>            
+            <div class="item">
+                <div class="Image">
+                    <a href="#"><img src="C:\Users\Алсу\Desktop\IT\Изображение 008.jpg"></a>
+                </div>
+                <div class="caption row-fluid">
+                    <div class="span4"><h3>Название 2</h3>
+                    <a class="btn btn-mini" href="#">Заказать</a>
+                    </div>                	
+                	<div class="span8"><p>Описание 2</p>
+                	</div>
+                </div>
+            </div>                   
+        </div>
+        <div class="control-box">                            
+            <a data-slide="prev" href="#myCarousel" class="carousel-control left"><</a>
+            <a data-slide="next" href="#myCarousel" class="carousel-control right">></a>
+        </div>   
+    </div>
+	</div>       
+	</div> 
+	</div>
+		<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+	    <script src='http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js'></script>
+	<div id="tab/one"></div>
+	<div id="tab/two"></div>
+	<div id="tab/three"></div>
+	<div class="notebook">
+	    <input type="radio"/ class="notebook_radio" name="notebook1" id="notebook1_1" checked>
+	    <label for="notebook1_1">Вкладка 1</label>
+	    <input type="radio"/ class="notebook_radio" name="notebook1" id="notebook1_2">
+	    <label for="notebook1_2">Вкладка 2</label>
+	    <input type="radio"/ class="notebook_radio" name="notebook1" id="notebook1_3">
+	    <label for="notebook1_3">Вкладка 3</label>
+	    <input type="radio"/ class="notebook_radio" name="notebook1" id="notebook1_4">
+	    <label for="notebook1_4">Вкладка 4</label>
+	</div>
+</body>
+</html>
